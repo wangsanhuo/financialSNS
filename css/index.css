@@ -1,0 +1,125 @@
+@import url("reset.css");
+ul, ol {
+  list-style: none; }
+
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
+
+html {
+  font-size: 100px; }
+
+.container {
+  font-family: "Microsoft Yahei";
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: .9rem;
+  background: #ED5858;
+  font-size: .38rem;
+  color: #fff;
+  text-align: center;
+  line-height: .9rem;
+  position: relative; }
+  .header i {
+    position: absolute;
+    right: 10px;
+    top: .26rem; }
+
+.main {
+  -webkit-flex: 1;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.m-ola {
+  height: .8rem;
+  display: -webkit-flex;
+  font-size: .3rem;
+  border-bottom: 1px solid #ccc;
+  line-height: .8rem; }
+  .m-ola li {
+    -webkit-flex: 1;
+    text-align: center; }
+  .m-ola li.ola-bg {
+    color: #ED5858;
+    border-bottom: 1px solid #ED5858; }
+
+.sec {
+  -webkit-flex: 1;
+  font-size: .16rem;
+  overflow-y: scroll; }
+
+.sec-ula {
+  height: auto;
+  width: 100%; }
+  .sec-ula li {
+    width: 100%;
+    height: 2.05rem;
+    border-bottom: 1px solid #dddddd; }
+    .sec-ula li a {
+      text-decoration: none;
+      font-size: 16px;
+      width: 49.8%;
+      height: 39px;
+      text-align: center;
+      display: block;
+      float: left;
+      line-height: 39px;
+      color: #666666; }
+    .sec-ula li .p1 {
+      color: #aaaaaa;
+      font-size: 14px;
+      padding-top: 17px;
+      padding-left: 16px; }
+      .sec-ula li .p1 span {
+        font-weight: bolder;
+        color: #222222;
+        font-size: 14px; }
+    .sec-ula li dl {
+      float: left;
+      width: 25.7%;
+      height: 70px; }
+    .sec-ula li img {
+      width: 43px;
+      height: 43px; }
+    .sec-ula li dt {
+      font-size: 14px; }
+      .sec-ula li dt span {
+        color: #222222; }
+      .sec-ula li dt small {
+        color: #ff6161;
+        font-size: 14px; }
+    .sec-ula li .p2 {
+      font-size: 40px;
+      padding-top: 17px;
+      padding-left: 13px;
+      color: #ff8800;
+      float: left; }
+
+.footer {
+  height: 1rem;
+  border-top: 1px solid #ccc;
+  background: #fff; }
+
+.nav {
+  display: -webkit-flex;
+  font-size: .27rem; }
+  .nav a {
+    -webkit-flex: 1;
+    text-align: center;
+    color: #333; }
+    .nav a i {
+      display: block;
+      padding-top: .1rem;
+      font-size: .44rem; }
+  .nav .nav-bg {
+    color: #ED5858;
+    border-top: 1px solid #ED5858; }
+
+/*# sourceMappingURL=index.css.map */
